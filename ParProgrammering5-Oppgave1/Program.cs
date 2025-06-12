@@ -1,3 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using ParProgrammering5_Oppgave1;
 
-Console.WriteLine("Hello, World!");
+HarryPotterCharacter character1 = new("Harry Potter", "Gryffindor");
+
+Console.WriteLine(character1.ToString());
+
+GameMenu store = new();
+store.Run(character1);
